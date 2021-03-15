@@ -4,7 +4,7 @@
 
 It is normal for lenders to incur credit losses from every portfolio over a given a period of time. In a another word, there is a certain amount of credit risk associated with every borrower. It is crucial to correctly estimate the expected loss (EL) associated with credit risk. The expected loss is defined as product of three components: probability of default (PD), loss given default (LGD), and exposure at default (EAD).
 
-$$ \text{EL} = \text{PD} * \text{LGD} * \text{EAD} $$
+EL = PD * LGD * EAD
 
 This project demontrates one way of estimating the three aforementioned components respectively, and using them to calculate the expected loss.
 
