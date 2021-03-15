@@ -33,3 +33,10 @@ The data set is a simplified version of real-time situations. However, all the t
 
 To estimate and calculate the LGD and EAD, the information of 'recovery amount if default' and 'total recovery principal' is needed. However, those informations are missing in this data set. In later part of this project, we will manually assign reasonable values to those features, and demonstrate how to use them to model and test LGD and EAD model, respectively. Please note that the result maybe differ/worse than real-life situations.
 
+## Part 3. Data Processing
+
+This step is shown in the 'Data_processing.ipynb' file.
+
+## Part 4. Modeling, Part 5. Evaluation, and Part 6. Deployment 
+
+Those steps are written in separate files. File 'PD_Model.ipynb' contains the PD modeling and evaluation. File 'LGD_Model_and_EAD_Model.ipynb' contains LGD and EAD modeling and evaluation. Finally, Part 6. Deployment will be shown in the latter file. Moreover, a file 'PD_Model_Monitoring.ipynb' will illustrate how to calibrate the PD model with newer coming in inputs.
